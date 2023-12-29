@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+    background: #111;
+    font-family: 'poppins', sans-serif;
+}
+
+ /*Textbox*/
+
+.textbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.textbox h1 {
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+.textbox h1 span {
+    color: aqua;
+}
+
+.textbox h2 {
+    font-size: 3.6em;
+    margin-bottom: 10px;
+}
+
+.textbox h2 span {
+    color: orange;
+}
+
+ /*Project cards*/
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background: linear-gradient(0deg, #ad5389, #3c1053);
+    width: 400px;
+    height: 825px;
+    margin: 50px;
+    border-radius: 70px;
+}
+
+.card h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.card p{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.card h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Cardimg{
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+ /*Card border*/
+.card:hover{
+    box-shadow: 20px 20px 60px rgba(219, 3, 158, 0.5);
+}
+
+
+ /*project image*/
+.TC{
+    background-image: url('/IMG/Projects/twicecore.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 175px;
+}
+
+.calc{
+    background-image: url('/IMG/Projects/calcu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 125px;
+}
+
+.ship {
+    background-image: url('/IMG/Projects/ship.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 125px;
+}
+
+.web {
+    background-image: url('/IMG/Projects/web.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 125px;
+}
+
+
+ /*language image*/
+ .language{
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+ .PY{
+    background-image: url('/IMG/Coding/py.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px;
+    margin-top: 30px;
+
+}
+
+.html{
+    background-image: url('/IMG/Coding/html-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px;
+    margin-top: 115px;
+
+}
+
+.CS1{
+    background-image: url('/IMG/Coding/cs.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px;
+    margin-top: 80px;
+}
+
+.CS2{
+    background-image: url('/IMG/Coding/cs.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px;
+    margin-top: 40px;
+}
+
+ /*Github Links*/
+
+.link{
+    text-align: center;
+}
+
+ .Link{
+    padding: 9px 25px;
+    background-color: rgb(46, 7, 82);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+ }

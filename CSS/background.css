@@ -1,0 +1,47 @@
+.BgAnimation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+    background: #1d1d1d;
+    filter: saturate(2)
+}
+
+.colorBox{
+    z-index: 2;
+    filter:brightness(1.1);
+    transition: 2 ease;
+    position: relative;
+    background-color: #1d1d1d; /* Set a background color to test */
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+.colorBox:hover{
+    background-color: blueviolet;
+    transition-duration: 0s;
+}
+
+.BackAni{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: blueviolet;
+    filter: blur(60px);
+    animation: animBack 3s linear 0s infinite normal none running;
+}
+
+@keyframes animBack {
+    0%{
+        top: -60px;
+    }
+    100%{
+        top: 120%;
+    }
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+    background: #111;
+    font-family: 'poppins', sans-serif;
+}
+
+.textbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.textbox h1 {
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+.textbox h1 span {
+    color: aqua;
+}
+
+.textbox h2 {
+    font-size: 3.6em;
+    margin-bottom: 20px;
+}
+
+.textbox h2 span {
+    color: orange;
+}
+
+.language {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 20px; /* Adjust as needed */
+}
+
+.language > div {
+    margin: 100px; /* Adjust the margin between language boxes */
+    text-align: center;
+}
+
+.CodeLogo img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.CodeLogo {
+    margin-bottom: 10px;
+}
+
+.language p:first-of-type {
+    margin-bottom: 10px;
+}
+
+.language p{
+    font-size: 1.6em;
+}
+
+.txt{
+    font-size: 1.5;
+}
+
